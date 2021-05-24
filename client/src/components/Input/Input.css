@@ -1,13 +1,14 @@
-.form {
+.forms {
     display: flex;
-    border-top: 2px solid #38373767;
+    border-top: 2px solid #e9e4e49a;
   }
   
   .input {
     border: none;
     border-radius: 0;
-    padding: 3%;
+    padding: 3.7%;
     width: 80%;
+  background-color: #eff1f5;
     font-size: 1.1em;
   }
   
@@ -19,11 +20,25 @@
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #eab71a;
+    background: #15c39a;;
     font-weight: 700;
     padding: 10px;
     cursor: pointer;
     display: inline-block;
     border: none;
-    width: 20%;
+    width: 24%;
+  }
+
+  @media screen and (max-width:800px) {
+
+    
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 6%;
+    background: #f9fbff;
+    width: 80%;
+    font-size: 1em;
+  }
+  
   }

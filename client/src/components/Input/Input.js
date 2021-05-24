@@ -4,7 +4,7 @@ import './Input.css'
 export const Input =  ({ setMessage, sendMessage, message }) => {
   return (
     <div>
-      <form className="form">
+      <div className="forms">
         <input
           className="input"
           type="text"
@@ -18,7 +18,7 @@ export const Input =  ({ setMessage, sendMessage, message }) => {
         <button className="sendButton" onClick={(event) => sendMessage(event)}>
         send
         </button>
-      </form>
+      </div>
     </div>
   )
 }

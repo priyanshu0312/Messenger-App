@@ -13,7 +13,7 @@ export const ChatBar = ({ room }) => {
         </div>
         <div className="rightInnerContainer">
           <a href="/">
-            <img src={closeIcon} alt="close icon" />
+          <i class="fa fa-close"></i>
           </a>
         </div>
       </div>

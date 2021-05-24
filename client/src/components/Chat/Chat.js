@@ -39,6 +39,9 @@ export const Chat = ({ location }) => {
     socket.on('message', (message) => {
       setMessages([...messages, message])
     })
+    return () => {
+      socket.off()
+    }
   }, [messages])
 
   // function for sending messages

@@ -10,7 +10,7 @@ import Input from '../Input/Input'
 import Messages from '../Messages/Messages'
 
 
-// const ENDPOINT = 'https://react-chat-real.herokuapp.com/';
+const ENDPOINT = 'https://chat-react-realtime.herokuapp.com/';
 
 
 let socket
@@ -20,7 +20,7 @@ export const Chat = ({ location }) => {
   const [room, setRoom] = useState('')
   const [message, setMessage] = useState('')
   const [messages, setMessages] = useState([])
-  const ENDPOINT = 'http://localhost:5000'
+  // const ENDPOINT = 'http://localhost:5000'
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search)
